@@ -1,6 +1,7 @@
 name: arm64 graviton cirun
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - develop
