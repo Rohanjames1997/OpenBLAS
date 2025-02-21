@@ -20,7 +20,7 @@ permissions:
 
 jobs:
   build:
-    if: "github.repository == 'OpenMathLib/OpenBLAS'"
+    # if: "github.repository == 'OpenMathLib/OpenBLAS'"
 
     strategy:
       fail-fast: false
